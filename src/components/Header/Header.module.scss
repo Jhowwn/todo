@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+  background-color: #0D0D0D;
+  max-width: 1440px;
+  max-height: 200px;
+
+  img {
+    width: 126;
+    height: 48;
+    margin-bottom: 1rem;
+  }
+}

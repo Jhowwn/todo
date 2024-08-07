@@ -1,0 +1,39 @@
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 736px; */
+
+  input {
+    width: 35rem;
+    background-color: var(--gray-500);
+    resize: none;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: -0.80rem;
+    margin-right: 0.5rem;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-dark);
+    resize: none;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: -0.80rem;
+  }
+
+  img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    /* margin-top: 0.5rem; */
+  }
+}
